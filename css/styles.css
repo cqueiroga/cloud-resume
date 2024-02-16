@@ -1,0 +1,122 @@
+body {
+	margin: 5px auto;
+	padding: 10px;
+}
+
+h1,
+h4 {
+	color: #006fc0;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0px;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#titleDivider {
+	border: 1px solid black;
+	margin: 0px 0px 35px 0px;
+}
+
+hr.sectionDividers {
+	margin: 0px;
+}
+
+#content {
+	margin: auto;
+	padding: 10px 80px;
+	height: 100%;
+	width: 50%;
+	border: 1px solid black;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+h4.sectionTitles {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	margin-top: 10px;
+}
+
+.sections {
+	margin: 30px 0px;
+}
+
+#resumeTitle {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	max-width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.skillsContainer {
+	column-count: 3;
+	column-width: 100px;
+}
+
+.languages {
+	font-style: italic;
+	margin-left: 25px;
+}
+
+.projectContainer {
+	margin-bottom: 10px;
+}
+
+.eduContainer,
+.employmentContainer {
+	column-count: 2;
+	column-width: 100px;
+}
+
+.eduTitles {
+	font-weight: bold;
+}
+
+.employmentDates,
+.companyCity {
+	text-align: right;
+}
+
+.jobTitles,
+.projectName {
+	font-weight: bold;
+}
+
+#schoolTitle {
+	margin-top: 20px;
+}
+
+.company {
+	font-style: italic;
+}
+
+ul {
+	margin: 0px;
+	max-width: 75%;
+}
+
+li {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+li:last-child {
+	margin-bottom: 10px;
+}
+
+.counterContainer {
+	width: 160spx;
+	margin: auto;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.counter {
+	display: inline-block;
+}
